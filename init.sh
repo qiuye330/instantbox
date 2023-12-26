@@ -5,7 +5,7 @@
 #
 # Usage:
 #  mkdir instantbox && cd $_
-#  bash <(curl -sSL https://raw.githubusercontent.com/instantbox/instantbox/master/init.sh)"
+#  bash <(curl -sSL https://github.com/qiuye330/instantbox/master/init.sh)"
 #  docker-compose up -d
 #
 
@@ -30,7 +30,7 @@ else
     chmod +x /usr/local/bin/docker-compose || exit 1
 fi
 
-curl -sSLO https://raw.githubusercontent.com/instantbox/instantbox/master/docker-compose.yml
+curl -sSLO https://github.com/qiuye330/instantbox/master/docker-compose.yml
 
 echo "Enter your IP (optional): "
 read IP
